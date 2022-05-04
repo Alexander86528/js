@@ -11,3 +11,11 @@ let key1 = 1;
 let key2 = 2;
 console.log(arr2);
 console.log(arr2[key1] + arr2[key2]);
+
+console.log('task 3');
+let obj3 = {'a': 1, 'b': 2, 'c': 3};
+console.log(obj3);
+// console.log(obj3.a);
+let key3 = 'b';
+console.log(obj3[key3]);
+console.log(obj3.key3);
