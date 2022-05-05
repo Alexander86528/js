@@ -1,0 +1,11 @@
+console.log(typeof{});
+console.log(typeof[]);
+console.log({1: 'a', 2: 'b', 3: 'c'});
+console.log(typeof[1, 2, 3]);
+let arr = [1, 2, 3];
+console.log(typeof arr);
+console.log(typeof arr[0]);
+arr = ['a', 'b', 'c'];
+console.log(typeof arr[0]);
+console.log(Array.isArray(arr));
+console.log(Array.isArray({'a': 1, 'b': 2, 'c': 3}));
