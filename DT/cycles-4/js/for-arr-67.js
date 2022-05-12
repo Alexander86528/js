@@ -126,4 +126,8 @@ for (let i = 0; i < arr11.length; i++){
 }
 */
 console.log('задача 12');
-let arr12[1, 2, 3, 4];
+let arr12 = [1, 2, 3, 4];
+for (let i = 0; i < arr12.length; i++) {
+  let a = arr12[i];
+  document.write('233');
+}
