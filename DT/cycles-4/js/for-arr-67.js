@@ -1,4 +1,4 @@
-// Пример из параграфа цикл for для массивов 67
+/*
 let arr = [1, 2, 3, 4, 5];
 
 console.log(arr);
@@ -60,3 +60,70 @@ for (i = 0; i < array5.length; i++) {
   console.log(s);
 }
 console.log(s);
+*/
+/*
+console.log('задача 6');
+let arr6 = [2, 5, 6, 9, 15, 1, 4];
+console.log(arr6);
+for (let i = 0; i < arr6.length; i++) {
+  if (arr6[i] > 3 && arr6[i] < 10) {
+    console.log(arr6[i]);
+  }
+}
+*/
+/*
+console.log('задача 7');
+let arr7 = [1, -2, -3, 1, -6, 1, 3];
+console.log(arr7);
+let sum = 0;
+for (let i = 0; i < arr7.length; i++) {
+  if (arr7[i] > 0) {
+    sum += arr7[i];
+    console.log(arr7[i]);
+  }
+}
+console.log(sum);
+*//*
+
+console.log('задача 8');
+let arr8 = [1, 2, 3, 4, 5];
+let sum = 0;
+let sr;
+console.log(arr8);
+for (let i = 0; i < arr8.length; i++) {
+  sum += arr8[i];
+}
+sr = sum / arr8.length;
+console.log('sr = ' + sr);
+*/
+/*
+console.log('задача 9');
+let arr9 = [10, 20, 30, 50, 235, 3000];
+console.log(arr9);
+for (let i = 0; i < arr9.length; i++) {
+  let stri = String(arr9[i]);
+  if (stri[0] == 1) {
+    console.log(arr9[i]);
+  }
+}
+*/
+/*
+console.log('задача 10');
+let arr10 = [1, 2, 3, 4, 5, ];
+console.log(arr10);
+for (let i = (arr10.length -1); i >= 0; i--) {
+  console.log(arr10[i]);
+}
+*/
+/*
+console.log('задача 11');
+let arr11 = [1, 0, 1, 2, 3, 5];
+console.log(arr11);
+for (let i = 0; i < arr11.length; i++){
+  if (i == arr11[i]) {
+    console.log(arr11[i]);
+  }
+}
+*/
+console.log('задача 12');
+let arr12[1, 2, 3, 4];
