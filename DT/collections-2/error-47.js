@@ -33,4 +33,4 @@ console.log(sum2);
 
 console.log('task 7');
 let obj7 = { a: 1, b: 2, c: 3, d: 4, e: 5 };
-console.log(obj7.length);
+console.log(obj7.length);// не верно так найти длину объекта нельзя
