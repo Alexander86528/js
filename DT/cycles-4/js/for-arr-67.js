@@ -131,3 +131,28 @@ for (let i = 0; i < arr12.length; i++) {
   let a = arr12[i];
   document.write('233');
 }
+
+/*
+document.write('<h3>task 12</h3>');
+let arr12 = [1, 2, 3, 4, 5];
+document.write(arr12);
+for (let i = 0; i < arr12.length; i++) {
+  document.write('<br>' + arr12[i]);
+}
+*/
+/*
+document.write('<h3>task 13</h3>');
+let arr13 = [1, 2, 3, 4, 5];
+document.write(arr13);
+for (let i = 0; i < arr13.length; i++) {
+  document.write('<p>' + arr13[i] + '</p>');
+}
+*/
+let arr14 = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+for (let i = 0; i < arr14.length; i++) {
+  if (arr14[i] == 'Сб' || arr14[i] == 'Вс') {
+    document.write('<p><b style="color: red">' + arr14[i] + '</b></p>');
+  } else {
+    document.write('<p>' + arr14[i] + '</p>');
+  }
+}
