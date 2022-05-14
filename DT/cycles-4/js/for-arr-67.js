@@ -125,13 +125,6 @@ for (let i = 0; i < arr11.length; i++){
   }
 }
 */
-console.log('задача 12');
-let arr12 = [1, 2, 3, 4];
-for (let i = 0; i < arr12.length; i++) {
-  let a = arr12[i];
-  document.write('233');
-}
-
 /*
 document.write('<h3>task 12</h3>');
 let arr12 = [1, 2, 3, 4, 5];
@@ -148,6 +141,8 @@ for (let i = 0; i < arr13.length; i++) {
   document.write('<p>' + arr13[i] + '</p>');
 }
 */
+/*
+document.write('<h3>task 14<h3>');
 let arr14 = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 for (let i = 0; i < arr14.length; i++) {
   if (arr14[i] == 'Сб' || arr14[i] == 'Вс') {
@@ -156,3 +151,16 @@ for (let i = 0; i < arr14.length; i++) {
     document.write('<p>' + arr14[i] + '</p>');
   }
 }
+*/
+document.write('<h3>Task 15<h3>');
+let arr15 = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+let day = 'Чт';
+
+for (let i = 0; i < arr15.length; i++) {
+  if (arr15 [i] == day ) {
+    document.write('<i style="color: darkred">' + arr15[i] + '</i> ');
+  } else {
+    document.write(arr15[i] + ' ');
+  }
+}
+
