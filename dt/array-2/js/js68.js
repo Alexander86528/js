@@ -89,7 +89,63 @@ console.log(arr73);
 console.log('task 74');
 console.log('task 75');
 let arr75 = [];
-
 arr75[4] = 'a';
 arr75[75] = 'ab';
 console.log(arr75.length);
+console.log(arr75);
+
+console.log('task 76');
+let arr76 = [];
+arr76.push('as');
+console.log(arr76);
+arr76.push('df');
+console.log(arr76);
+arr76.push('gh');
+console.log(arr76);
+
+let arr76_1 = [];
+arr76_1.push(1);
+arr76_1.push(2);
+arr76_1.push(3);
+console.log(arr76_1);
+console.log('arr76_1 = ' + arr76_1);
+arr76_1.push(4);
+arr76_1.push(5);
+console.log(arr76_1);
+console.log('arr76_1 = ' + arr76_1);
+
+console.log('task 77');
+let arr77 = arr76;
+console.log(arr77);
+let key77 = 0;
+console.log(arr77[key77]);
+
+let arr77_2 = [1, 2, 3, 4, 5];
+let key77_2_1 = 1;
+let key77_2_2 = 2;
+console.log(arr77_2[key77_2_1] + arr77_2[key77_2_2]);
+
+console.log('task 78');
+let arr78 = arr77;
+arr78.push('jk');
+arr78.push('l;');
+console.log(arr78);
+delete arr78[1];
+console.log(arr78);
+console.log(arr78.length);
+delete arr78[2];
+console.log(arr78);
+console.log(arr78.length);
+// console.log(arr76);
+
+console.log('task 79');
+let arr79 = arr78;
+console.log(arr79);
+console.log(arr79[arr79.length-1]);
+console.log(arr79[arr79.length]);
+let arr79_2 = arr77_2;
+console.log(arr79_2);
+arr79_2.pop();
+arr79_2.pop();
+console.log(arr79_2);
+console.log(arr79_2[0] + arr79_2[1] + arr79_2[2]);
