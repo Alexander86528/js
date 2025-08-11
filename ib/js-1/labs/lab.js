@@ -1,4 +1,5 @@
-﻿/*
+﻿console.log("hello \n world");
+/*
 ** Просто пусто файл	 
 */
 function sayHello(name, sign) {
